@@ -7,11 +7,11 @@ jobs:
    -run: date
  windows:
     runs-on: windows-latest
-  steps:
-   -run: date
+    steps:
+    -run: date
  Macos:
     runs-on: macos-latest
-  steps:
+    steps:
     -run: date
  depends:
    needs: [ubuntu,windows,Macos]
