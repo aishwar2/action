@@ -1,0 +1,5 @@
+name: Python
+on: push
+jobs:
+python:
+  - runs on: Ubuntu-latest
