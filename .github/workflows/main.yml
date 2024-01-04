@@ -17,4 +17,4 @@ jobs:
    needs: [ubuntu,windows,Macos]
    runs-on: ubuntu-latest
     steps:
-      -run: date
+     -run: date
