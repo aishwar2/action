@@ -1,12 +1,12 @@
 name: ARTIFACT
  on:[on push]
- env: 
+ env:
  ARTIFACT_NAME: artifact
-jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
+ jobs:
+ build:
+      name: Build
+      runs-on: ubuntu-latest
+      steps:
     - name : Check out code
       uses: actions/checkout@v2
     - name: upload the artifact
