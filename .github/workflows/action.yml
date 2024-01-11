@@ -1,7 +1,7 @@
 name: ARTIFACT
-on: [on push]
-env:
-ARTIFACT_NAME: artifact
+ on:[on push]
+ env: 
+ ARTIFACT_NAME: artifact
 jobs:
   build:
     name: Build
