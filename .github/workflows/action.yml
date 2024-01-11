@@ -1,6 +1,6 @@
 name: ARTIFACT
  on:[on push]
- env:
+ env: 
  ARTIFACT_NAME: artifact
  jobs:
  build:
